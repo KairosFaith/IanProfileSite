@@ -1,0 +1,78 @@
+
+
+body, html {
+
+  background-color: black;
+}
+
+
+div#root {
+  //height: 100%; /* remove this line to see div.app is no more 100% height */
+  background-color: black;
+  min-width:auto;
+  
+
+}
+
+div.app {
+
+  background-color: black;
+}
+
+@media (max-width:960px){
+  html{
+    font-size:8px
+  }
+}
+
+@media (max-width:961px) and (max-width: 1024px){
+  html{
+    font-size:9px;
+  }
+}
+
+@media (max-width:1025px) and (max-width: 1281px){
+  html{
+    font-size:11px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+}
+
+
+
+.category {
+  display: flex;
+  margin-top: 1.25rem;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  color: rgb(184, 206, 249);
+  font-size: 1.125rem;
+}
+
+.category-desc {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  color: gold;
+  font-size: 1rem;
+  text-align:center;
+}
+
+
+
+
+

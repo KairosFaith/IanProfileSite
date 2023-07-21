@@ -1,0 +1,30 @@
+
+
+.music-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    .music-desc{
+        margin-top:3.125rem;
+        font-size:1.0625rem;
+        color: #F7F7F7;
+        line-height:1.25rem;
+    }
+
+    .music{
+        margin-top:3.125rem;
+        font-size:1.25rem;
+        color: #F7F5F2;
+        text-decoration: underline;
+    }
+
+    
+    
+}
+
